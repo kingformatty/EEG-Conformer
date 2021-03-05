@@ -1,0 +1,5 @@
+torch
+jupyterlab
+matplotlib
+seaborn
+tqdm
