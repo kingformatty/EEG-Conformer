@@ -1,7 +1,11 @@
 
 Dataloader:
-		Please modify path in "src/dataset_eeg.py" to match your implementation. 
-	Train Mode:
+
+	Please modify path in "src/dataset_eeg.py" to match your implementation. 
+		
+		
+Train Mode:
+
 		Open "training.py", specify hyperparameters in the declaration, the modifiable hyperparameters are as follows:
 			- BATCH_SIZE
 			- NUM_WORKERS
@@ -25,8 +29,8 @@ Dataloader:
 			- conv_dim (1D conv or 2D conv, "feature"/"channel")
 			- normalize (whether to normalize the data or not, True/False)
 
+Eval Mode:
 
-	Eval Mode:
 		Open "load_model.py", specify the path to the best model.
 		For examples:
 			path =  '/media/kingformatty/easystore/C247/project/transformer/exp/general crop/conformer_lr_dc0.01_4conv_kernel_channel_last_crop800_normalize/models/best_model26.pth'
